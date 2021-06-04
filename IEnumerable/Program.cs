@@ -23,7 +23,7 @@ namespace LINQ_Example_3
 
     public class UserInfo
     {
-        public UserInfo(int id, string name, string location)               //user information
+        public UserInfo(int id, string name, string location)
         {
             this.Id = id;
             this.Name = name;
@@ -55,7 +55,7 @@ namespace LINQ_Example_3
         }
     }
 
-    public class UsersEnum : IEnumerator                        //UsersEnum IEnumerator Interface
+    public class UsersEnum : IEnumerator                        //UsersEnum implementing IEnumerator Interface
     {
         public UserInfo[] _user;
         int currentIndex = -1;
